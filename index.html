@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="left-side">
+            <!-- You can replace the URL with the path to your image -->
+            <img src="login.png" alt="Welcome Image">
+            
+        </div>
+        <div class="right-side">
+            <h2>Welcome to materialize!</h2>
+            <p>Please sign in to your account and start your adventure.</p>
+            <form id="login-form">
+                
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+                <div class="password-container">
+                    <input type="password" id="id_password" name="password" placeholder="Password" required >
+                    <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+                    
+                </div>
+
+                <div class="remember-forgot">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p class="new-account">New to our platform? <a href="#">Create an account</a></p>
+            <p class="or-line">or</p>
+            <div class="social-icons">
+                <!-- Add your social media icons and links here -->
+                <a href="#"><ion-icon style="color: blue;" name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon style="color: rgb(17, 118, 165);" name="logo-twitter"></ion-icon></a>
+                <a href="https://github.com/Akshata-havgunde"><ion-icon style="color: black;" name="logo-github"></ion-icon></a>
+                <a href="#"><ion-icon style="color: red;" name="logo-google"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
